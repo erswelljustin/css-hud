@@ -22,4 +22,6 @@ Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
 
+Kindly Facilitated by [Create Digital Media](http://createdm.com)
+
 Inspired by [MBProgressHUD](https://github.com/jdg/MBProgressHUD)'s brilliant library for iOS.
