@@ -12,7 +12,7 @@ Simply include the hud.css into your project above and then place the following 
 		</div>
 	</div>
 	
-I would suggest using the always brilliant Public domain: [http://ajaxload.info](http://ajaxload.info) site to generate the loading image in the color style you prefer. I have included a basic loader for you in this repo.
+I would suggest using the always brilliant [AJAXLoad](http://ajaxload.info) site to generate the loading image in the color style you prefer. I have included a basic loader for you in this repo.
 
 ======
 
