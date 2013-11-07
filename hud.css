@@ -1,0 +1,28 @@
+#hud-overlay {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+	z-index: 99999;
+}
+.hud {
+	background: rgba(255,255,255,0.9);
+	border-radius: 20px;
+	width: 120px;
+	height: 120px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -60px;
+	margin-left: -60px;
+	text-align: center;
+}
+.hud img {
+	margin-top: 30px;
+}
+.hud p {
+	text-align: center;
+	color: #EE4643;
+	margin-top: 20px;
+}
