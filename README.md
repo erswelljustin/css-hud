@@ -18,7 +18,9 @@ I would suggest using the always brilliant [AJAXLoad](http://ajaxload.info) site
 
 If you want to use jquery for showing this as part of an AJAX event for example, just add the following code to your script
 
+``` javascript
 	$('#hud-overlay').show();
+```
 
 ======
 
