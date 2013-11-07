@@ -3,7 +3,7 @@ CSS HUD
 
 A Simple CSS Heads Up Display
 
-Simply include the hud.css into your project above and then place the following code above all of the elements on your page but directly after the `<body>` tag in your HTML document.
+Simply include the hud.css into your project above and then place the following code above all of the elements on your page but directly after the `<body>` tag in your HTML document. There is an inline style to hide the div until needed and called using JQuery for instance
 
 	<div id="hud-overlay" style="display: none">
 		<div class="hud">
@@ -18,7 +18,7 @@ I would suggest using the always brilliant Public domain: [http://ajaxload.info]
 
 If you want to use jquery for showing this as part of an AJAX event for example, just add the following code to your script
 
-$('#hud-overlay').show()
+	`$('#hud-overlay').show();`
 
 ======
 
