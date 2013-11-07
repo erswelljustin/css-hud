@@ -18,7 +18,7 @@ I would suggest using the always brilliant Public domain: [http://ajaxload.info]
 
 If you want to use jquery for showing this as part of an AJAX event for example, just add the following code to your script
 
-	`$('#hud-overlay').show();`
+	$('#hud-overlay').show();
 
 ======
 
