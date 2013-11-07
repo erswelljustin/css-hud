@@ -1,11 +1,11 @@
-css-hud
+CSS HUD
 =======
 
 A Simple CSS Heads Up Display
 
 Simply include the hud.css into your project above and then place the following code above all of the elements on your page but directly after the `<body>` tag in your HTML document.
 
-	<div id="hud-overlay">
+	<div id="hud-overlay" style="display: none">
 		<div class="hud">
 			<img src="YOUR_LOADER_IMAGE">
 			<p>SOME TEXT</p>
@@ -13,6 +13,12 @@ Simply include the hud.css into your project above and then place the following 
 	</div>
 	
 I would suggest using the always brilliant Public domain: [http://ajaxload.info](http://ajaxload.info) site to generate the loading image in the color style you prefer. I have included a basic loader for you in this repo.
+
+======
+
+If you want to use jquery for showing this as part of an AJAX event for example, just add the following code to your script
+
+$('#hud-overlay').show()
 
 ======
 
