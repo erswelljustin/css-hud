@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <title>CSS Hud Example</title>
     <link rel="stylesheet" href="assets/css/hud.css"/>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
 </head>
 <body>
     <div id="hud-overlay" style="display: none">
         <div class="hud">
             <img src="assets/images/ajax-loader.gif">
-            <p>Loding…</p>
+            <p>Loading…</p>
         </div>
     </div>
 
@@ -20,13 +26,12 @@
             var button = $('#show-hud');
             var overlay = $('#hud-overlay');
             button.on('click', function() {
-                $('#hud-overlay').show();
+                overlay.show();
             });
-            if(overlay.is('visible')){
-                this.on('click', function() {
-                    this.hide();
-                });
-            }
+
+            overlay.click(function() {
+                overlay.hide();
+            });
         });
     </script>
 </body>
