@@ -24,6 +24,8 @@ If you want to use jquery for showing this as part of an AJAX event for example,
 	$('#hud-overlay').show();
 ```
 
+Ideally you would attach this to an AJAX event such as a GET or POST and show the hud until the process has returned a success message.
+
 ======
 
 ## License ##
