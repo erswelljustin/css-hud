@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CSS Hud Example</title>
+    <link rel="stylesheet" href="assets/css/hud.css"/>
+</head>
+<body>
+    <div id="hud-overlay" style="display: none">
+        <div class="hud">
+            <img src="assets/images/ajax-loader.gif">
+            <p>Loding…</p>
+        </div>
+    </div>
+
+    <button type="button" id="show-hud">Click to Show CSS Hud</button>
+    <script type="text/javascript" src="assets/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var button = $('#show-hud');
+            var overlay = $('#hud-overlay');
+            button.on('click', function() {
+                $('#hud-overlay').show();
+            });
+            if(overlay.is('visible')){
+                this.on('click', function() {
+                    this.hide();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
