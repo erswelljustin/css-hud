@@ -1,6 +1,8 @@
 CSS HUD
 =======
 
+[![Join the chat at https://gitter.im/erswelljustin/css-hud](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/erswelljustin/css-hud?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A Simple CSS Heads Up Display
 
 Simply include the hud.css into your project above and then place the following code above all of the elements on your page but directly after the `<body>` tag in your HTML document. There is an inline style to hide the div until needed and called using JQuery for instance
